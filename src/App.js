@@ -15,8 +15,8 @@ class App extends React.Component{
             <>
                 <BrowserRouter>
                     <Switch>
-                        <Route exact path="/mnt/" component={Personal} />
-                        <Route exact path="/mnt/enterprise" component={Enterprise} />
+                        <Route exact path="/mvp/" component={Personal} />
+                        <Route exact path="/mvp/enterprise" component={Enterprise} />
                     </Switch>
                 </BrowserRouter>
             </>
