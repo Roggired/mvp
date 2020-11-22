@@ -12,7 +12,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <HeaderStyle>
-                <Link to="/">
+                <Link to="/mvp">
                     <Button height="45px"
                             width="120px"
                             onclick={this.buttonClick}>
@@ -22,7 +22,7 @@ export default class Header extends React.Component {
                 <Logo>
                     XSphere
                 </Logo>
-                <Link to="/enterprise">
+                <Link to="/mvp/enterprise">
                     <Button height="45px"
                             width="120px"
                             onclick={this.buttonClick}>
