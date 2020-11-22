@@ -10,15 +10,13 @@ class App extends React.Component{
         super(props);
     }
 
-    //govno
-
     render() {
         return (
             <>
                 <BrowserRouter>
                     <Switch>
-                        <Route exact path="/" component={Personal} />
-                        <Route exact path="/enterprise" component={Enterprise} />
+                        <Route exact path="/mnt/" component={Personal} />
+                        <Route exact path="/mnt/enterprise" component={Enterprise} />
                     </Switch>
                 </BrowserRouter>
             </>
